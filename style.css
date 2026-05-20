@@ -1434,12 +1434,12 @@ RESPONSIVE MEDIUM SCREENS
         margin: 20px 0;
     }
 
-    .header__customers {
+    .header__customers--img {
         padding-right: 0;
     }
 
     .header__customers--title,
-    .header__img {
+    .header__img--wrapper {
         margin-top: 48px;
     }
 
@@ -1466,7 +1466,6 @@ RESPONSIVE MEDIUM SCREENS
 
     .quality__description {
         margin-right: 0;
-        padding-right: 48px;
     }
 
     .value {
@@ -1549,6 +1548,11 @@ RESPONSIVE SMALL SCREENS
         flex-direction: column-reverse;
     }
 
+    .quality__description {
+        text-align: center;
+        margin-top: 64px;
+    }
+
     .quality__description,
     .quality__img--wrapper,
     .steps__description,
@@ -1563,7 +1567,13 @@ RESPONSIVE SMALL SCREENS
 
     #steps .row,
     #testimonials .row {
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+
+    .steps__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
     }
 
     .step {
@@ -1574,6 +1584,11 @@ RESPONSIVE SMALL SCREENS
     .step__descript {
         margin-top: 12px;
         margin-left: 0;
+    }
+
+    .values__description {
+        text-align: center;
+        padding: 32px 0;
     }
 
     .values__list {
@@ -1593,8 +1608,22 @@ RESPONSIVE SMALL SCREENS
         margin-top: 40px;
     }
 
+    #pricing .section__para {
+        text-align: center;
+    }
+
+    .plan__bottom {
+        padding: 32px;
+    }
+
+    .plan__btn {
+        padding: 16px 32px;
+    }
+
     .testimonials__description {
         padding-left: 0;
+        text-align: center;
+        margin-top: 64px;
     }
 
     .footer__columns {
